@@ -97,6 +97,13 @@ main {
         transition: transform 0.3s ease-in;
     }
 
+    .nav-list ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
     .nav-list li {
         margin-left: 0;
         opacity: 0;
