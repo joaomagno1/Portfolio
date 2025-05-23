@@ -56,12 +56,13 @@ main {
     font-size: 14px;
     letter-spacing: 2px;
     padding: 8px 16px;
-    transition: 0.3s;
+    transition: transform 0.3s ease-in;
 }
 
 .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    transition: transform 0.3s ease-in;
 }
 
 .mobile-menu {
