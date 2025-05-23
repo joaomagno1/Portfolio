@@ -29,7 +29,7 @@ nav {
 }
 
 main {
-    background: url(/assets/img/bg.jpg) no-repeat center center;
+    background: url(bg.jpg) no-repeat center center;
     background-size: cover; /*caso tamanho do background seja maior que o da tela*/
     height: 92vh;
 }
