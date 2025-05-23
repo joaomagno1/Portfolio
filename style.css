@@ -235,7 +235,7 @@ footer {
 }
 
 #input-group button {
-    background-color: #ab90ceff;
+    background-color: rgba(171, 144, 206, 1);
     border: none;
     color: var(--color-neutro-40);
     padding: 0px 1.5rem;
