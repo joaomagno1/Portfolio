@@ -1,29 +1,84 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a class="logo" href="/">João Magno</a>
+            <a id="menut" class="logo" href="/">João Magno</a>
             <div class="mobile-menu"> <!-- menu toggle mobile responsivo -->
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
-            <ul class="nav-list">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Projetos</a></li>
-                <li><a href="/">Contatos</a></li>
+            <ul class="nav-list"> <!-- lista de links -->
+                <li><a id="menut" href="/">Inicio</a></li>
+                <li><a id="menut" href="/">Sobre</a></li>
+                <li><a id="menut" href="/">Projetos</a></li>
+                <li><a id="menut" href="/">Contatos</a></li>
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        
+    </main>
+    <footer>
+        <div id="footer-content">
+            <div id="footer-contacts">
+                <h1>João Magno</h1>
+                <div id="footer-social-media">
+                    <a href="#" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Portfolio</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Sobre</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Projetos</a>
+                </li>
+            </ul>
+
+            <div id="footer-contact">
+                <h3>
+                    <p>
+                        Envie um e-mail para contato:
+                    </p>
+
+                    <div id="input-group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-solid fa-envelope"></i>
+                        </button>
+                    </div>
+                </h3>
+            </div>
+        </div>
+        <div id="footer-copyright">
+            &#169; 
+            2025 João Magno. Todos os direitos reservados.
+        </div>
+    </footer>
     <script src="mobile-navbar.js"></script>
 </body>
 </html>
