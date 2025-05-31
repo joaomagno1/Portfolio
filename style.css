@@ -170,6 +170,27 @@ footer {
     margin-top: 1.5rem;
 }
 
+ /* <-----------estilização dos links------------> */
+.footer-link { 
+    text-decoration: none;
+    color: var(--color-neutro-40);
+    font-weight: 600;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    background: transparent;
+    box-shadow: 0 2px 8px 0 rgba(35,41,70,0.04);
+    display: inline-block;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background: var(--color-menutg);
+    color: var(--color-header);
+    box-shadow: 0 4px 16px 0 rgba(35,41,70,0.10);
+    outline: none;
+}
+/* <----------------------->*/
 #footer-social-media .footer-link {
     display: flex;
     align-items: center;
@@ -199,6 +220,10 @@ footer {
 
 #whatsapp {
     background: #25D366;
+}
+
+#email {
+    background: #EA4335;
 }
 
 .footer-list {

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="inicio">
         <nav>
             <a class="menut logo" href="/">João Magno</a>
             <div class="mobile-menu"> <!-- menu toggle mobile responsivo -->
@@ -25,9 +25,16 @@
         </nav>
     </header>
     <main>
-        <section id="inicio"></section>
-        <section id="sobre"></section>
-        <section id="projetos"></section>
+        <div>
+            <section id="inicio">
+                <div class="container1">
+                    <img src="" alt="">
+                    <h1>João Victor Magno C. Siqueira</h1>
+                    <p>Desenvolvedor FullStack - Estudante do Instituto Federal de Tecnologia de São Paulo,</p>
+                    <a href="#sobre" class="btn">Saiba mais</a>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div id="footer-content">
@@ -43,9 +50,11 @@
                     <a href="https://wa.me/+5518988224847" class="footer-link" id="whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
+                    <a href="mailto:joao27012006@gmail.com" class="footer-link" id="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
                 </div>
             </div>
-
             <ul class="footer-list">
                 <li>
                     <h3>Portfolio</h3>
@@ -60,16 +69,14 @@
                     <a href="#" class="footer-link">Projetos</a>
                 </li>
             </ul>
-
-            <div id="footer-contato">
-                <h3>Envie um e-mail para contato:</h3>
-                <div id="input-group">
-                    <input type="email" id="email">
-                    <button>
-                        <i class="fa-solid fa-envelope"></i>
-                    </button>
-                </div>
-            </div>
+            <div>
+                <h3>Endereço</h3>
+                <p>Nova Luzitânia, SP, Brasil</p>
+                <h3>Telefone</h3>
+                <p><a href="tel:+5518988224847" class="footer-link">+55 18 98822-4847</a></p>
+                <h3>Email</h3>
+                <p><a href="mailto:joao27012006@gmail.com" class="footer-link">joao27012006@gmail.com</a></p>
+            </div>  
         </div>
         <div id="footer-copyright">
             &#169; 
