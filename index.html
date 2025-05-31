@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="inicio">
+    <header id="topo">
         <nav>
             <a class="menut logo" href="/">João Magno</a>
             <div class="mobile-menu"> <!-- menu toggle mobile responsivo -->
@@ -17,7 +17,7 @@
                 <div class="line3"></div>
             </div>
             <ul class="nav-list"> <!-- lista de links -->
-                <li><a class="menut" href="#inicio">Inicio</a></li>
+                <li><a class="menut" href="#topo">Inicio</a></li>
                 <li><a class="menut" href="#sobre">Sobre</a></li>
                 <li><a class="menut" href="#projetos">Projetos</a></li>
                 <li><a class="menut" href="#footer-social-media">Contatos</a></li>
@@ -25,18 +25,16 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div class="container">
             <section id="inicio">
-                <div class="container1">
-                    <img src="" alt="">
-                    <h1>João Victor Magno C. Siqueira</h1>
-                    <p>Desenvolvedor FullStack - Estudante do Instituto Federal de Tecnologia de São Paulo,</p>
-                    <a href="#sobre" class="btn">Saiba mais</a>
-                </div>
+                <img src="" alt="">
+                <h1>João Victor Magno C. Siqueira</h1>
+                <p>Desenvolvedor FullStack - Estudante do Instituto Federal de Tecnologia de São Paulo,</p>
+                <a href="#sobre" class="btn">Curriculum Vitae</a>
             </section>
         </div>
-        <section id="habilidades" class="skills-section">
-            <div class="container1">
+        <div class="container">
+            <section id="habilidades" class="skills-section">
                 <h2>SoftwareSkills</h2>
                 <ul class="skills-list">
                     <li><i class="fa-brands fa-html5"></i> HTML5</li>
@@ -46,8 +44,30 @@
                     <li><i class="fa-brands fa-git-alt"></i> Git & GitHub</li>
                     <li><i class="fa-solid fa-code"></i> Lógica de Programação</li>
                 </ul>
-            </div>
-        </section>
+            </section>
+        </div>
+        <div class="container">
+            <section id="projetos" class="projects-section">
+                <h2>Projetos</h2>
+                <div class="projects-list">
+                    <div class="project-card">
+                        <h3>Projeto 1: Meu Portfólio</h3>
+                        <p>Site pessoal desenvolvido com HTML, CSS e JavaScript para apresentar minhas habilidades e projetos.</p>
+                        <a href="https://github.com/joaomagno1/portfolio" target="_blank" class="btn">Ver no GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Projeto 2: Sistema de Tarefas</h3>
+                        <p>Aplicação web para gerenciamento de tarefas, utilizando JavaScript e armazenamento local.</p>
+                        <a href="https://github.com/joaomagno1/task-manager" target="_blank" class="btn">Ver no GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Projeto 3: API de Livros</h3>
+                        <p>API RESTful criada com Node.js e Express para cadastro e consulta de livros.</p>
+                        <a href="https://github.com/joaomagno1/books-api" target="_blank" class="btn">Ver no GitHub</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <div id="footer-content">
